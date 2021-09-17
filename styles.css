@@ -1,0 +1,64 @@
+/* code font */
+/* font-family: 'Roboto Mono', monospace; */
+
+/* sans serif font */
+/* font-family: 'Inter', sans-serif; */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8edeb;
+}
+h1, h3 {
+    text-align: center;
+}
+
+p input {
+    width: 1vw;
+    font-family: 'Roboto Mono', monospace;
+    border: none;
+}
+
+#q {
+    /* border: 1px solid black; */
+    width: 60%;
+    text-align: center;
+    padding: 3%;
+    background-color: #ffd7ba;
+    margin-bottom: 1%;
+    border-radius: 20px;
+}
+
+.snippet {
+    text-align: left;
+    margin-left: 30%;
+}
+
+#challenges {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+.if {
+    width: 20px;
+}
+.else {
+    width: 35px;
+}
+.paren {
+    width: 12px;
+}
+
+.curly {
+    width: 12px;
+}
+
+.medium {
+    width: 1vw
+}
+
+.long {
+    width: 1.8vw
+}
+
+
