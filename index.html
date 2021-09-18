@@ -14,43 +14,135 @@
   </head>
   <body>
     <h1>Week 2 Challenges</h1>
-    <h3>These challenges are going to be going over week two content from the modules and videos, specifically conditionals.</h3>
+    <h3>These challenges are going to be going over week two content from the modules and videos.</h3>
+    <h3>Instructions: in each input box, type the correct syntax element and press enter. If your answer is correct the box will turn green
+        and if not, the box will turn red.  </h3>
     <div id="challenges">
+        <h2>Operators</h2>
+        <div id="q">
+            <p>1. Write in the missing syntax element to compare these 2 number's type AND value :</p>
+            <div class="snippet">
+                <p> let comparison = 3 <input class="strictE"/> 3 </p>
+
+            </div>
+        </div>
+
+        <div id="q">
+            <p>2. Write in the missing syntax element to compare these 2 number's value :</p>
+            <div class="snippet">
+                <p> let comparison = 3 <input class="equal"/> 3 </p>
+
+            </div>
+        </div>
+
+        <div id="q">
+            <p>3. Write in the missing syntax element to check whether the values are inequal in value AND type :</p>
+            <div class="snippet">
+                <p> let comparison = 7 <input class="notEqual"/> 'x' </p>
+
+            </div>
+        </div>
+
+        <div id="q">
+            <p>4. Write in the missing syntax element to check whether the value on the right is greater than or equal to the value on the left :</p>
+            <div class="snippet">
+                <p> let comparison = 7 <input class="greatOrE"/> 6 </p>
+
+            </div>
+        </div>
+
+        <div id="q">
+            <p>5. Write in the missing syntax element to check whether the value on the right is less than or equal to the value on the left :</p>
+            <div class="snippet">
+                <p> let comparison = 2 <input class="lessOrE"/> 8 </p>
+
+            </div>
+        </div>
+
+        <div id="q">
+            <p>6. Write in the missing syntax element to make sure BOTH expressions in the if statement evaluate to true :</p>
+            <div class="snippet">
+                <p>let num = 10</p>
+                <p> if ( num - 5 === 5 <input class="and"/> num + 2 === 12) {</p>
+                <p style="margin-left: 5%;">console.log('The value is 10')</p>
+                <p>}</p>
+
+            </div>
+        </div>
+
+        <div id="q">
+            <p>6. Write in the missing syntax element to make sure the first expression OR the second expression evaluate to true :</p>
+            <div class="snippet">
+                <p>let num = 10</p>
+                <p> if ( num - 10 === 0 <input class="or"/> num + 8 === 12) {</p>
+                <p style="margin-left: 5%;">console.log('The value is 10 or 4')</p>
+                <p>}</p>
+
+            </div>
+        </div>
+
+
+
+        <h2>Conditionals</h2>
         <div id="q">
             <p>1. Write in the missing syntax elements for this if/else if/else statement:</p>
             <div class="snippet">
-                <p><input class="if"/> <input class="paren"/> 3 < 4 <input class="paren"/> <input class="curly" /></p>
-                <p style="margin-left: .7%;">console.log(true)</p>
-                <p><input class="curly"/> <input class="else"/> <input class="if"/> <input class="paren" /> condition <input class="paren" /> <input class="curly" /> </p>
-                <p style="margin-left: .7%;">console.log(true)</p>
-                <p><input class="curly"/> <input class="else"/> <input class="curly" /> </p>
-                <p style="margin-left: .7%;">console.log('these are not numbers and cannot be compared')</p>
-                <p><input class="curly"/></p>
+                <p>let num = 6</p>
+                <p><input class="if"/> <input class="openparen"/> num > 10 <input class="closeparen"/> <input class="opencurly" /></p>
+                <p style="margin-left: 5%;">console.log('num is greater than 10')</p>
+                <p><input class="closecurly"/> <input class="else"/> <input class="if"/> <input class="openparen" /> num < 10 <input class="closeparen" /> <input class="opencurly" /> </p>
+                <p style="margin-left: 5%;">console.log('num is less than 10')</p>
+                <p><input class="closecurly"/> <input class="else"/> <input class="opencurly" /> </p>
+                <p style="margin-left: 5%;">console.log('num is not a number')</p>
+                <p><input class="closecurly"/></p>
             </div>
+            <p ><b>Bonus: What is the outcome of this if/else statement?</b></p>
+            <input class="bonus1"/>
         </div>
         <div id="q">
             <p>2. Write in the missing syntax elements for this ternary statement:</p>
             <div class="snippet">
-                <p> 5 > 2 <input class="questionmark"/> console.log(true) <input class="colon" style="margin-right: .5%;"/> console.log(false)</p>
-                
+                <p> 5 > 2 <input class="questionmark"/> console.log(true) <input class="colon" /> console.log(false)</p>
             </div>
+            <p ><b>Bonus: What is the outcome of this ternary expression?</b></p>
+            <input class="bonus2"/>
+        </div>
+
+        
+        <div id="q">
+            <p>3. Write in the missing syntax elements for this switch statement:</p>
+            <div class="snippet">
+                <p>let grade = 82;</p>
+                <p>switch <input class="openparen"/> grade <input class="closeparen" /> <input class="opencurly" /></p>
+                <p style="margin-left: 5%;"> case grade > 100 <input class="colon" />  console.log('A') <input class="semicolon"/></p>
+                <p style="margin-left: 5%;"> <input class="break"/> <input class="semicolon"/></p>
+                <br/>
+                <p style="margin-left: 5%;"> case grade > 90 <input class="colon" />  console.log('B') <input class="semicolon"/> </p>
+                <p style="margin-left: 5%;"> <input class="break"/> <input class="semicolon"/></p>
+                <br/>
+                <p style="margin-left: 5%;"> case grade > 80 <input class="colon" />  console.log('C') <input class="semicolon"/> </p>
+                <p style="margin-left: 5%;"> <input class="break"/> <input class="semicolon"/></p>
+                <br/>
+                <p style="margin-left: 5%;"> case grade > 70 <input class="colon" />  console.log('D') <input class="semicolon"/> </p>
+                <p style="margin-left: 5%;"> <input class="break"/> <input class="semicolon"/></p>
+                <br/>
+                <p style="margin-left: 5%;"> case grade > 60 <input class="colon" />  console.log('F') <input class="semicolon"/> </p>
+                <p style="margin-left: 5%;"> <input class="break"/> <input class="semicolon"/></p>
+                <p style="margin-left: 5%;"> <input class="default"/> <input class="colon"/> console.log('Number provided cannot be calculated to a letter grade')<input class="semicolon"/></p>
+                <br/>
+                <p><input class="closecurly"/></p>
+            </div>
+            <p ><b>Bonus: What is the outcome of this switch statement?</b></p>
+            <input class="bonus3"/>
         </div>
         <!-- <div id="q">
-            <p>3. Write in the missing syntax elements for this if/else if/else statement:</p>
-            <div class="snippet">
-                <p><input class="if"/> <input class="paren" style="margin-right: .5%;"/>3 < 4<input class="paren" style="margin-left: .5%; "/> <input class="curly" /></p>
-                <p style="margin-left: .7%;"> console.log(true) </p>
-                <p><input class="short"/> <input class="long"/> <input class="medium"/> <input class="short" /> condition <input class="short" /> <input class="short" /> </p>
-            </div>
-        </div>
-        <div id="q">
             <p>4. Write in the missing syntax elements for this if/else if/else statement:</p>
             <div class="snippet">
                 <p><input class="if"/> <input class="paren" style="margin-right: .5%;"/>3 < 4<input class="paren" style="margin-left: .5%; "/> <input class="curly" /></p>
-                <p style="margin-left: .7%;"> console.log(true) </p>
+                <p style="margin-left: 5%;"> console.log(true) </p>
                 <p><input class="short"/> <input class="long"/> <input class="medium"/><input class="short" /> condition <input class="short" /> <input class="short" /> </p>
-            </div> -->
-        </div>
+            </div>
+        </div> -->
     </div>
        
     <script src="./index.js"></script>

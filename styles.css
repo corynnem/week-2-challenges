@@ -7,6 +7,7 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: #f8edeb;
+    font-weight: bold;
 }
 h1, h3 {
     text-align: center;
@@ -15,12 +16,13 @@ h1, h3 {
 p input {
     width: 1vw;
     font-family: 'Roboto Mono', monospace;
-    border: none;
+    border: none; 
+    font-weight: bold;
 }
 
 #q {
     /* border: 1px solid black; */
-    width: 60%;
+    width: 85%;
     text-align: center;
     padding: 3%;
     background-color: #ffd7ba;
@@ -36,29 +38,37 @@ p input {
 #challenges {
     display: flex;
     flex-direction: column;
-    margin-left: 25%;
+    margin-left: 10%;
 }
 
-.if {
+.if, .equal, .greatOrE, .lessOrE, .and, .or {
     width: 20px;
 }
-.else {
+.else, .notEqual {
     width: 35px;
 }
-.paren {
+.openparen, .closeparen {
+    width: 12px;
+    /* background-color: blue; */
+}
+
+.opencurly, .closecurly {
+    width: 12px;
+    /* background-color: black; */
+}
+
+.semicolon, .colon {
     width: 12px;
 }
 
-.curly {
-    width: 12px;
-}
-
-.medium {
-    width: 1vw
-}
-
-.long {
-    width: 1.8vw
+.break {
+    width: 40px
 }
 
 
+.strictE {
+ width: 25px;
+}
+.default {
+    width: 60px
+}
