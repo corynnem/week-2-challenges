@@ -33,22 +33,21 @@ const solved = (e, i) => {
             e.target.value === '&&' ? inputs[i].style = 'background-color: #caffbf;' :  inputs[i].style = 'background-color: #ffadad;'
         } else if(e.target.className === 'or') {
             e.target.value === '||' ? inputs[i].style = 'background-color: #caffbf;' :  inputs[i].style = 'background-color: #ffadad;'
-        } 
-        
-
-
-       
-        
-        else if(e.target.className === 'bonus1'){
+        } else if(e.target.className === 'zero') {
+            e.target.value === '0' ? inputs[i].style = 'background-color: #caffbf;' :  inputs[i].style = 'background-color: #ffadad;'
+        } else if(e.target.className === 'length') {
+            e.target.value === '.length' ? inputs[i].style = 'background-color: #caffbf;' :  inputs[i].style = 'background-color: #ffadad;'
+        }  else if(e.target.className === 'iplusplus') {
+            e.target.value === 'i++' ? inputs[i].style = 'background-color: #caffbf;' :  inputs[i].style = 'background-color: #ffadad;'
+        }  else if(e.target.className === 'arrow') {
+            e.target.value === '=>' ? inputs[i].style = 'background-color: #caffbf;' :  inputs[i].style = 'background-color: #ffadad;'
+        } else if(e.target.className === 'bonus1'){
             e.target.value === 'num is less than 10' ? inputs[i].style = 'background-color: #caffbf;' :  inputs[i].style = 'background-color: #ffadad;'
         } else if(e.target.className === 'bonus2') {
             e.target.value === 'true' ? inputs[i].style = 'background-color: #caffbf;' :  inputs[i].style = 'background-color: #ffadad;'
         } else if(e.target.className === 'bonus3') {
             e.target.value === 'B' ? inputs[i].style = 'background-color: #caffbf;' :  inputs[i].style = 'background-color: #ffadad;'
-        }
-        
-        
-        else {
+        } else {
             inputs[i].style = 'background-color: #ffadad;'
         }
     }
@@ -59,6 +58,5 @@ const solved = (e, i) => {
  for(let i=0; i < inputs.length; i++) {
     inputs[i].addEventListener('change', (e) => solved(e, i))
  }
-
 
 

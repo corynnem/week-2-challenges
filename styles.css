@@ -5,70 +5,90 @@
 /* font-family: 'Inter', sans-serif; */
 
 body {
-    font-family: 'Inter', sans-serif;
-    background-color: #f8edeb;
-    font-weight: bold;
+  font-family: "Inter", sans-serif;
+  background-color: #f8edeb;
+  font-weight: bold;
 }
-h1, h3 {
-    text-align: center;
+h1,
+h3 {
+  text-align: center;
 }
 
 p input {
-    width: 1vw;
-    font-family: 'Roboto Mono', monospace;
-    border: none; 
-    font-weight: bold;
+  width: 1vw;
+  font-family: "Roboto Mono", monospace;
+  border: none;
+  font-weight: bold;
 }
 
 #q {
-    /* border: 1px solid black; */
-    width: 85%;
-    text-align: center;
-    padding: 3%;
-    background-color: #ffd7ba;
-    margin-bottom: 1%;
-    border-radius: 20px;
+  /* border: 1px solid black; */
+  width: 85%;
+  text-align: center;
+  padding: 3%;
+  background-color: #ffd7ba;
+  margin-bottom: 1%;
+  border-radius: 20px;
 }
 
 .snippet {
-    text-align: left;
-    margin-left: 30%;
+  text-align: left;
+  margin-left: 30%;
 }
 
 #challenges {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
 }
 
-.if, .equal, .greatOrE, .lessOrE, .and, .or {
-    width: 20px;
-}
-.else, .notEqual {
-    width: 35px;
-}
-.openparen, .closeparen {
-    width: 12px;
-    /* background-color: blue; */
-}
-
-.opencurly, .closecurly {
-    width: 12px;
-    /* background-color: black; */
+.if,
+.equal,
+.greatOrE,
+.lessOrE,
+.and,
+.or,
+.in,
+.arrow {
+  width: 20px;
 }
 
-.semicolon, .colon {
-    width: 12px;
+.else,
+.notEqual,
+.iplusplus {
+  width: 35px;
+}
+
+.openparen,
+.zero ,
+.closeparen {
+  width: 12px;
+}
+
+.opencurly,
+.closecurly {
+  width: 12px;
+}
+
+.semicolon,
+.colon {
+  width: 12px;
 }
 
 .break {
-    width: 40px
+  width: 40px;
 }
 
+.strictE,
+.for,
+.add {
+  width: 25px;
+}
 
-.strictE {
- width: 25px;
+.default, .length, .function {
+  width: 60px;
 }
-.default {
-    width: 60px
-}
+
+.function {
+    width: 70px;
+  }
