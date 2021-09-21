@@ -20,11 +20,13 @@ p input {
   border: none;
   font-weight: bold;
 }
+ 
+/* #q > p {
+  margin-left: -4vw;
+} */
 
 #q {
-  /* border: 1px solid black; */
   width: 85%;
-  text-align: center;
   padding: 3%;
   background-color: #ffd7ba;
   margin-bottom: 1%;
@@ -33,7 +35,7 @@ p input {
 
 .snippet {
   text-align: left;
-  margin-left: 30%;
+  margin-left: 15vw;
 }
 
 #challenges {
@@ -61,7 +63,8 @@ p input {
 
 .openparen,
 .zero ,
-.closeparen {
+.closeparen,
+.questionmark {
   width: 12px;
 }
 
