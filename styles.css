@@ -4,11 +4,15 @@
 /* sans serif font */
 /* font-family: 'Inter', sans-serif; */
 
+/* Background color: #f8edeb */
+/* Card color: #ffd7ba */
+
 body {
   font-family: "Inter", sans-serif;
   background-color: #f8edeb;
   font-weight: bold;
 }
+
 h1,
 h3 {
   text-align: center;
@@ -20,10 +24,6 @@ p input {
   border: none;
   font-weight: bold;
 }
- 
-/* #q > p {
-  margin-left: -4vw;
-} */
 
 #q {
   width: 85%;
@@ -62,7 +62,7 @@ p input {
 }
 
 .openparen,
-.zero ,
+.zero,
 .closeparen,
 .questionmark {
   width: 12px;
@@ -88,10 +88,12 @@ p input {
   width: 25px;
 }
 
-.default, .length, .function {
+.default,
+.length,
+.function {
   width: 60px;
 }
 
 .function {
-    width: 70px;
-  }
+  width: 70px;
+}
