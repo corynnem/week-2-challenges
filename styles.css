@@ -27,11 +27,13 @@ p input {
 
 #q {
   width: 85%;
-  padding: 3%;
+  padding: 1%;
   background-color: #ffd7ba;
   margin-bottom: 1%;
   border-radius: 20px;
 }
+
+
 
 .snippet {
   text-align: left;
