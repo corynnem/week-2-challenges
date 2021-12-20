@@ -1,7 +1,9 @@
 let inputs = document.querySelectorAll('input')
 
 const solved = (e, i) => {
-    if(e.target.value === e.target.className) {
+    if(e.keyCode === 13) {
+        inputs[i + 1].focus()
+    } else if(e.target.value === e.target.className) {
         inputs[i].style = 'background-color: #caffbf;'
     } else {
         if(e.target.className === 'opencurly'){
@@ -51,7 +53,6 @@ const solved = (e, i) => {
         }
     }
 }
-
 
 
 
