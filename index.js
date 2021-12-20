@@ -1,7 +1,6 @@
 let inputs = document.querySelectorAll('input')
 
 const solved = (e, i) => {
-    console.log(e.target.className, e.target.value)
     if(e.target.value === e.target.className) {
         inputs[i].style = 'background-color: #caffbf;'
     } else {
@@ -55,8 +54,11 @@ const solved = (e, i) => {
 
 
 
- for(let i=0; i < inputs.length; i++) {
-    inputs[i].addEventListener('change', (e) => solved(e, i))
- }
+
+inputs.forEach((_, i) => {
+    inputs[i].addEventListener('keyup', (e) => solved(e, i))
+})
+
+
 
 
